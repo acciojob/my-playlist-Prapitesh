@@ -1,17 +1,26 @@
+/* Center headings */
 h1, h2 {
     text-align: center;
 }
+
+/* Remove bullets from list */
 li {
     list-style-type: none;
 }
+
+/* Remove underline from link */
 a {
     text-decoration-line: none;
 }
+
+/* Page background */
 body {
     background-color: rgb(204, 204, 204);
 }
-.player_one,
-.player_two {
+
+/* Player containers */
+.player.one,
+.player.two {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
