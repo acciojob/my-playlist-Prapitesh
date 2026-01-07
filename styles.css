@@ -8,18 +8,25 @@ li {
     list-style-type: none;
 }
 
-/* Remove underline from link */
+/* Anchor styling */
 a {
     text-decoration-line: none;
 }
 
-/* Page background */
+/* Body background */
 body {
     background-color: rgb(204, 204, 204);
 }
 
-/* Player containers */
-.player.one,
+/* Player ONE */
+.player.one {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Player TWO */
 .player.two {
     background-color: rgb(255, 255, 255);
     padding: 10px;
