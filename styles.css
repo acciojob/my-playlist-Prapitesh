@@ -1,21 +1,17 @@
 h1, h2 {
     text-align: center;
 }
-
 li {
     list-style-type: none;
 }
-
 a {
     text-decoration-line: none;
 }
-
 body {
     background-color: rgb(204, 204, 204);
 }
-
-.player-one,
-.player-two {
+.player.one,
+.player.two {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
